@@ -4,10 +4,17 @@ html {
     color: rgba(214, 222, 219, 0.391);
 }
 
+.image{
+    position: relative; 
+}
+
 .franck {
     border: 1px solid rgb(3, 95, 35);
     border-radius: 50%;
     width: 15em;
+    position: relative;
+    top: 17em;
+    left: 2.5em;
 }
 
 .fond {
@@ -17,7 +24,8 @@ html {
     padding: 0.5em;
     border-radius: 10px;
     margin-left: -1.5em;
-    border: 1px solid rgb(3, 95, 35);
+    margin-top: 8em;
+    /*border: 1px solid rgb(3, 95, 35);*/
     text-align:center;
 }
 

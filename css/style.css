@@ -4,14 +4,21 @@ html {
     color: rgba(214, 222, 219, 0.391);
 }
 
+.franck {
+    border: 1px solid rgb(3, 95, 35);
+    border-radius: 50%;
+    width: 15em;
+}
+
 .fond {
     /*background-color: rgba(127, 125, 125, 0.415) ;*/
     width: 25%;
     height: 10%;
     padding: 0.5em;
     border-radius: 10px;
-    margin-left: -3.5em;
+    margin-left: -1.5em;
     border: 1px solid rgb(3, 95, 35);
+    text-align:center;
 }
 
 .contains {
@@ -19,18 +26,20 @@ html {
     align-items: flex-end;
     justify-content: space-between;
     /*border: 1px solid black;*/
-    padding: 3em
+    padding: 3em;
 }  
 
 .dfn{
     color: rgb(5, 105, 38);
     text-align: right;
     font-weight: 500;
+    margin-top: 1em;
     width: 42em;
     /*background-color: rgba(117, 123, 123, 0.326);*/
     padding: 1em;
     border: 1px solid rgb(3, 95, 35);
     border-radius: 10px;
+    margin-bottom: 15em;
 }
 
 .titre {
@@ -38,12 +47,17 @@ html {
     font-size: 5em;
     font-weight: 700;
     background-color: rgba(0, 0, 0, 0.206);
-    color: rgb(57, 95, 82);
+    color: rgb(248, 248, 248);
     padding: 0.5em;
-    border: 1px solid rgb(3, 95, 35);
+    border: 1px solid rgb(122, 216, 155);
     border-radius: 80px;
+    text-align: center;
+    text-shadow: 2px 0 0 rgb(4, 71, 18), 2px 2px 0 rgb(4, 71, 18), 0 2px 0 rgb(4, 71, 18), -2px 2px 0 rgb(4, 71, 18), -2px 0 0 rgb(4, 71, 18), -2px -2px 0 rgb(4, 71, 18), 0 -2px 0 rgb(4, 71, 18), 2px -2px 0 rgb(4, 71, 18);
 }
 
+h1 {
+    float: left;
+}
 
 em {
     font-weight: 700;
@@ -52,7 +66,7 @@ em {
 nav {
     display: flex;
     /*border: 1px solid black;*/
-    height: 38em;
+    height: 47em;
 }
 
 body {
@@ -99,7 +113,7 @@ footer {
 
 ul {
     list-style: none;
-    margin-top: -10.3em;
+    margin-top: -17em;
     padding: 1em;
     background-color: rgba(23, 77, 59, 0.19);
 }

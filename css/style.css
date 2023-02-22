@@ -5,7 +5,7 @@ html {
 }
 
 .fond {
-    background-color: rgba(127, 125, 125, 0.415) ;
+    /*background-color: rgba(127, 125, 125, 0.415) ;*/
     width: 25%;
     height: 10%;
     padding: 0.5em;
@@ -27,7 +27,7 @@ html {
     text-align: right;
     font-weight: 500;
     width: 42em;
-    background-color: rgba(117, 123, 123, 0.326);
+    /*background-color: rgba(117, 123, 123, 0.326);*/
     padding: 1em;
     border: 1px solid rgb(3, 95, 35);
     border-radius: 10px;
@@ -79,9 +79,9 @@ header {
 }
 
 a {
-    color: rgb(78, 208, 124);
+    color: rgb(162, 243, 191);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 500;  
 }
 
 a:hover {
@@ -99,11 +99,13 @@ footer {
 
 ul {
     list-style: none;
-    display: inline;
-    margin-top: -8em
+    margin-top: -10.3em;
+    padding: 1em;
+    background-color: rgba(23, 77, 59, 0.19);
 }
 
 li{
     display: inline;
-    padding: 1em
+    padding: 1em;
+    
 }

@@ -1,7 +1,7 @@
 html {
-    background-color: rgb(142, 180, 168);
+    background-color: rgba(142, 180, 168, 0.5);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgba(64, 87, 80, 0.682);
+    color: rgba(214, 222, 219, 0.391);
 }
 
 .fond {

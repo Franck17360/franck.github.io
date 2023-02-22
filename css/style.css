@@ -11,15 +11,60 @@ html {
     padding: 0.5em;
     border-radius: 10px;
     margin-left: -3.5em;
+    border: 1px solid rgb(3, 95, 35);
 }
+
+.contains {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+    padding: 3em
+}  
+
+.dfn{
+    color: rgb(5, 105, 38);
+    text-align: right;
+    font-weight: 500;
+    width: 42em;
+    background-color: rgba(117, 123, 123, 0.326);
+    padding: 1em;
+    border: 1px solid rgb(3, 95, 35);
+    border-radius: 10px;
+}
+
+.titre {
+    align-self: center;
+    font-size: 5em;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.206);
+    color: rgb(57, 95, 82);
+    padding: 0.5em;
+    border: 1px solid rgb(3, 95, 35);
+    border-radius: 7px;
+}
+
+
+em {
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    /*border: 1px solid black;*/
+    height: 38em;
+}
+
 body {
     background-image: url(../img/fond_index.jpg);
     width: 80%;
-    margin-top: 0.4em;
+    margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
     padding: 0.1em;
-    height: 50em;
+    height: 52em;
+    border: 1px solid rgb(3, 95, 35);
+    border-radius: 10px;
 }
 
 h1 {
@@ -31,4 +76,34 @@ h1 {
 
 header {
     height: 100%;
+}
+
+a {
+    color: rgb(78, 208, 124);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color:rgb(216, 240, 233);
+    text-shadow: 2px 0 0 rgb(4, 71, 18), 2px 2px 0 rgb(4, 71, 18), 0 2px 0 rgb(4, 71, 18), -2px 2px 0 rgb(4, 71, 18), -2px 0 0 rgb(4, 71, 18), -2px -2px 0 rgb(4, 71, 18), 0 -2px 0 rgb(4, 71, 18), 2px -2px 0 rgb(4, 71, 18);
+}
+
+a:visited {
+    color: black;
+}
+
+footer {
+    margin-left: 5em;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+    margin-top: -8em
+}
+
+li{
+    display: inline;
+    padding: 1em
 }

@@ -1,138 +1,148 @@
 html {
-    background-color: rgba(142, 180, 168, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(207, 209, 241);
-    overflow: auto;
-    overflow: hidden;
+  background-color: rgba(142, 180, 168, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(207, 209, 241);
+  overflow: auto;
+  overflow: hidden;
 }
-
 
 .image {
+  position: relative;
+}
+
+.fb {
     position: relative;
+    top: 10em;
+    left: 8em;
+  width: 15em;
+  height: 15em;
+  border: 1px solid aquamarine;
+  border-radius: 50%;
 }
 
-.franck {
-    border: 1px solid rgb(193, 190, 241);
-    border-radius: 50%;
-    width: 15em;
-    position: relative;
-    top: 17em;
-    left: 2.5em;
+.main {
+  display: flex;
 }
 
-.fond {
-    width: 25%;
-    height: 10%;
-    padding: 0.5em;
-    border-radius: 10px;
-    margin-left: -1.5em;
-    margin-top: 8em;
-    text-align: center;
+.main_2 {
+  display: flex;
 }
 
-.contains {
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 3em;
+.menu {
+  display: flex;
 }
 
 .dfn {
-    color: rgb(255, 255, 255);
-    text-align: right;
-    font-weight: 500;
-    margin-top: 1em;
-    width: 42em;
-    padding: 1em;
-    border: 1px solid rgb(189, 199, 233);
-    background-color: rgba(255, 255, 255, 0.39);
-    border-radius: 10px;
-    margin-bottom: 15em;
+  position:relative;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  font-weight: 300;
+  margin-top: 1em;
+  padding: 1em;
+  border: 1px solid rgb(124, 139, 189);
+  background-color: rgba(78, 110, 214, 0.753);
+  border-radius: 10px;
+  margin-bottom: 0em;
+  width: 40%;
+  top: 17em;
+  left: 54em;
 }
 
-.titre {
-    align-self: center;
-    font-size: 3em;
-    font-weight: 700;
-    background-color: rgba(0, 0, 0, 0.317);
-    color: rgb(189, 198, 228);
-    padding: 0.5em;
-    border: 1px solid rgb(152, 163, 223);
-    border-radius: 80px;
-    text-align: center;
-    word-spacing: 0.5em;
+.citations {
+    position: relative;
+}
+
+.descritpion {
+    position:relative;
+    left: 3em;
+  font-size: 3em;
+  background-color: rgba(111, 111, 182, 0.164);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid rgb(129, 127, 127);
+  text-shadow: 1px 1px 2px rgb(216, 170, 70), 0 0 1em rgb(158, 212, 233),
+    0 0 0.2em rgb(166, 166, 226);
+    padding: 10px;
 }
 
 em {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 nav {
-    display: flex;
-    height: 40em;
-    justify-content: space-between;
+  position: relative;
+  display: flex;
+  left: 51em;
 }
 
 body {
-    background-image: url(../img/fond_index.jpg);
-    background-size: cover;
-    width: 80%;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.1em;
-    height: 50em;
-    border: 1px solid rgb(243, 218, 203);
-    border-radius: 10px;
+  background-image: url(../img/fond_index.jpg);
+  background-size: cover;
+  width: 80%;
+  height: 800px;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.1em;
+  border: 1px solid rgb(243, 218, 203);
+  border-radius: 30px;
 }
 
 h1 {
-    color: rgb(115, 136, 228);
-    font-weight: 700;
-    padding-left: 1em;
-    opacity: none;
-    float: left;
-}
-
-header {
-    height: 100%;
+  color: rgb(115, 136, 228);
+  font-weight: 700;
+  padding-left: 1em;
+  position: absolute;
+  left: 50em;
+  opacity: none;
+  float: left;
 }
 
 a {
-    color: aqua;
-    font-weight: 500;
-    text-decoration: none;
+  color: rgb(239, 245, 245);
+  font-weight: 500;
+  text-decoration: none;
+  z-index: 9999;
 }
 
 a:hover {
-    color: rgb(239, 205, 191);
-}
-
-a:focus {
-    text-decoration: overline;
-    text-decoration: underline;
+  color: rgb(191, 237, 239);
+  /*text-decoration: overline underline;*/
+  text-shadow: 1px 1px 2px rgb(233, 221, 195), 0 0 1em rgb(158, 212, 233),
+    0 0 0.2em rgb(166, 166, 226);
+    background-color: rgba(240, 248, 255, 0.24);
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 a:visited {
-    color: black;
+  color: black;
 }
 
-footer {
-    margin-left: 5em;
-    margin-top: 1em;
-    color: rgb(237, 202, 185);
+.footer {
+  position: relative;
+  top: 16em;
+  left: 3em;
+  color: rgb(237, 202, 185);
+  padding: 1em;
+}
+
+.footer_1 {
+    position: relative;
 }
 
 ul {
-    list-style: none;
-    margin-top: -17em;
-    padding: 1em;
-    background-color: rgba(183, 195, 228, 0.19);
-    border-radius: 10px;
-    color: aqua;
+  list-style: none;
+  padding: 1em;
+  background-color: rgba(183, 195, 228, 0.19);
+  border-radius: 10px;
+  border: 1px solid rgba(236, 96, 96, 0.534);
 }
 
 li {
-    display: inline;
-    padding: 1em;
-
+  display: inline;
+  padding: 1em;
 }
